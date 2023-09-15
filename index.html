@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>hi! this is a simple exercise to deeper learning of JavaScript.
+        Don't pay too much attention to styles!!! Beauty is on the inside :)
+    </h3>
+    <h4>
+        for begin,type a text in the input below!
+    </h4>
+    <div id="enter-box">
+        <input type="text" id="text-selected" placeholder="type a text here..." />
+        <button onclick="onClickForText()">Submit</button>
+        <button onclick="onClickForTextDelete()">delete</button>
+    </div>
+    <!-- search console -->
+    <section id="search-console" style="background-color: aquamarine;padding: 20px;margin-top: 20px;display: none;">
+        <h3>search console</h3>
+        search for word: <input id="search-word" placeholder="type here"/>
+        <button onclick="searchConsoleButton()">search!</button> <span id="found-item" style="display: none;"></span>
+        
+    </section>
+    <!-- text box -->
+    <section id="text-box" style="background-color: aquamarine;color: rgb(0, 0, 0);padding: 20px;margin-top: 20px;">
+        Nothing Yet!!!
+    </section>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
